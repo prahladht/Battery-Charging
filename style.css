@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 30px;
+    background-color: orange;
+}
+
+.bg {
+    background-color: gold;
+    height: 400px;
+    width: 400px;
+}
+
+.battery-container {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: #ddd;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+
+.battery-level {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    bottom: 1px;
+    /* Change this color based on your preference */
+    border-radius: 4px;
+
+}
+
+.charging-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #555;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.head {
+    font-size: 25px;
+    text-align: center;
+    color: silver;
+}
+
+.para {
+    font-size: 15px;
+    text-align: left;
+    font-weight: 700;
+}
+
+.charge {
+    text-align: center;
+}
